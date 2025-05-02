@@ -10,7 +10,7 @@ public class Main {
 
         cargaDatos();
 
-        int opcion=0;
+        int opcion;
         Scanner sc = new Scanner(System.in);
         do {
             //Mostrar menu de opciones
