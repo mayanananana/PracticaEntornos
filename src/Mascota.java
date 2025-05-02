@@ -71,10 +71,6 @@ public class Mascota {
         return visitas;
     }
 
-    public void setVisitas(int visitas) {
-        this.visitas = visitas;
-    }
-
     public void vacunar() {
         this.vacunado = true;
     }
