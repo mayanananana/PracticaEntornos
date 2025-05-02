@@ -3,8 +3,6 @@ import java.util.ArrayList;
 public class Veterinaria {
     private ArrayList<Mascota> mascotas;
 
-    public Veterinaria() {
-    }
 
     public Veterinaria(ArrayList<Mascota> mascotas) {
         this.mascotas = mascotas;
