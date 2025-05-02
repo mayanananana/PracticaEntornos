@@ -33,7 +33,7 @@ public class Main {
                     break;
                 case 4:
                     // Lógica para mostrar mascotas
-                    mostrarMascotas();
+                    mostrarMascotasGeneral();
                     break;
                 case 5:
                     // Lógica para mostrar estadísticas generales
@@ -65,7 +65,7 @@ public class Main {
         System.out.println("Total visitas: " + totalVisitas);
     }
 
-    private static void mostrarMascotas() {
+    private static void mostrarMascotasGeneral() {
         for (Mascota m: mascotas) {
             System.out.println(m);
         }
