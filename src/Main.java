@@ -42,6 +42,10 @@ public class Main {
                     mostrarEstadisticas();
                     break;
                 case 6:
+                    // Lógica para mostrar mascotas no vacunadas
+                    mostrarNoVacunados();
+                    break;
+                case 7:
                     // Lógica para salir del programa
                     System.out.println("Adios...");
                     break;
@@ -51,9 +55,17 @@ public class Main {
             }
 
 
-        } while(opcion!=6);
+        } while(opcion!=7);
 
 
+    }
+
+    private static void mostrarNoVacunados() {
+        for (Mascota m: mascotas) {
+            if(!m.isVacunado()){
+                System.out.println(m);
+            }
+        }
     }
 
     private static void mostrarEstadisticas() {
